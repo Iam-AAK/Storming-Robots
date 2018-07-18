@@ -1,4 +1,4 @@
-# Storming-Robots <br /> 
-Code from Summer Job as Assistant Instructor at Storming Robots<br /> 
+# RobotC Code <br /> 
+Practice Code = helps understand the different commands and the syntax
 <br /> 
 Built With: RobotC
