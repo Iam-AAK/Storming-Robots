@@ -10,6 +10,7 @@ task main()
 			motor[motorA] = -50;
 			motor[motorB] = 50;
 			motor[motorC] = -50;
+			clearSounds();
 
 			}else{// sonar if
 			// backwards
@@ -17,6 +18,7 @@ task main()
 			motor[motorB] = -50;
 			motor[motorC] = 50;
 			playSound(soundDownwardTones);
+			
 		}
 
 	}
