@@ -1,0 +1,23 @@
+task main()
+{
+
+	SensorType[S1] = sensorEV3_Color;
+	SensorMode[S1] = modeEV3Color_RGB_Raw;
+
+	long r,g,b;
+	delay(100);
+
+	while(true){
+		
+		motor[motorA] = 5;
+		motor[motorB] = 5;
+	
+		getColorRawRGB(S1, r, g, b);
+		displayTextLine(1, "%d" , r);
+		displayTextLine(2, "%d" , g);
+		displayTextLine(3, "%d" , b);
+
+		wait1Msec(1000);
+	}
+
+}
