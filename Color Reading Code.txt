@@ -13,6 +13,7 @@ task main()
 		motor[motorB] = 5;
 	
 		getColorRawRGB(S1, r, g, b);
+		// displayBigTextLine(...) - used for bigger font
 		displayTextLine(1, "%d" , r);
 		displayTextLine(2, "%d" , g);
 		displayTextLine(3, "%d" , b);
