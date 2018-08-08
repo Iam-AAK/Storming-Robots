@@ -70,7 +70,7 @@ task main()
 
 			}**/
 
-			// yellow: difference less than 10 then it has to be yellow.
+			// yellow: difference less than 10 (for red and green) then it has to be yellow.
 
 		}
 
